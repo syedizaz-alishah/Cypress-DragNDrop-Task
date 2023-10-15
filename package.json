@@ -1,0 +1,28 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "esl": "eslint .",
+    "cy:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cy:run:headless": "npm run esl && cypress run --headless",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "izaz ali shah",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.6.0",
+    "@cypress/skip-test": "^2.6.0",
+    "cypress": "^6.8.0",
+    "cypress-file-upload": "^5.0.5",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.2",
+    "eslint": "^7.23.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^4.0.3"
+  }
+}

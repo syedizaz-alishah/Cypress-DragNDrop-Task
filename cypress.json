@@ -1,0 +1,24 @@
+{
+    "chromeWebSecurity": false,
+    "reporter":"mochawesome",
+    "reporterOptions":
+    {
+        "reportDir":"cypress/report/mochawesome-report",
+        "overwrite":true,
+        "html":true,
+        "json":false,
+        "timeStamp":"mmddyyyy_HHMMss"
+
+
+    },
+    "baseUrl": "https://creator-dev.social27.com/",
+    "env": {
+        "url":"",
+        "email": "",
+        "password": "",
+ 
+
+        "invalidEmail": "",
+        "invaidPassword": ""
+    }
+}
